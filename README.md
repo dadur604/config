@@ -11,6 +11,12 @@ https://github.com/Maximus5/ConEmu
 ConEmu Admin Task: Import into Task Scheduler to auto-run ConEmu as Admin on startup.
 
 
+## Wox
+Launcher for Windows. Custom reskin:
+
+https://github.com/dadur604/Wox
+
+
 ## Powershell
 Place profile in ~\Documents\WindowsPowerShell\
 
