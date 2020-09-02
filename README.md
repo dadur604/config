@@ -1,4 +1,3 @@
-# Config
 Personal Configuration Files
 
 Some software I use:
@@ -37,4 +36,15 @@ https://getsharex.com/
 Window tile manager
 
 http://windowgrid.net/
+
+# IDEs
+JetBrains Rider (C#, Unity)  
+JetBrains WebStorm (Web)  
+MS Visual Studio (C#,C++)  
+Notepad++ (Configs, etc)  
+  
+  
+Fiddler - Web Proxy  
+
+
 
