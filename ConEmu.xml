@@ -29,11 +29,7 @@
 			<value name="PopTextColorIdx" type="hex" data="10"/>
 			<value name="PopBackColorIdx" type="hex" data="10"/>
 			<value name="SingleInstance" type="hex" data="01"/>
-<<<<<<< HEAD
-			<value name="QuakeStyle" type="hex" data="00"/>
-=======
 			<value name="QuakeStyle" type="hex" data="02"/>
->>>>>>> df09c650f3d1da5cf13abd5b890a7b36581e908c
 			<value name="KeyboardHooks" type="hex" data="01"/>
 			<value name="UseInjects" type="hex" data="01"/>
 			<value name="Update.CheckOnStartup" type="hex" data="00"/>
@@ -45,11 +41,7 @@
 			<value name="FontSize" type="ulong" data="14"/>
 			<value name="StatusFontHeight" type="long" data="12"/>
 			<value name="TabFontHeight" type="long" data="13"/>
-<<<<<<< HEAD
-			<key name="HotKeys" modified="2020-10-02 11:12:44" build="191012">
-=======
 			<key name="HotKeys" modified="2020-06-02 14:39:50" build="191012">
->>>>>>> df09c650f3d1da5cf13abd5b890a7b36581e908c
 				<value name="MinimizeRestore" type="dword" data="00001120"/>
 				<value name="KeyMacroVersion" type="hex" data="02"/>
 				<value name="Multi.Modifier" type="dword" data="000000a2"/>
@@ -63,13 +55,8 @@
 				<value name="SetFocusChild" type="dword" data="00000000"/>
 				<value name="ChildSystemMenu" type="dword" data="00000000"/>
 				<value name="CheckUpdates" type="dword" data="00105b55"/>
-<<<<<<< HEAD
-				<value name="Multi.NewConsole" type="dword" data="00105b57"/>
-				<value name="Multi.NewConsoleShift" type="dword" data="00005b57"/>
-=======
 				<value name="Multi.NewConsole" type="dword" data="00005b57"/>
 				<value name="Multi.NewConsoleShift" type="dword" data="00105b57"/>
->>>>>>> df09c650f3d1da5cf13abd5b890a7b36581e908c
 				<value name="Multi.CmdKey" type="dword" data="00005b58"/>
 				<value name="Multi.NewWndConfirm" type="dword" data="00000000"/>
 				<value name="Multi.NewConsolePopup" type="dword" data="00005b4e"/>
@@ -351,37 +338,21 @@
 			<value name="AutoSaveSizePos" type="hex" data="01"/>
 			<value name="Cascaded" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
-<<<<<<< HEAD
-			<value name="WindowMode" type="dword" data="00000520"/>
-			<value name="ConWnd X" type="long" data="2213"/>
-			<value name="ConWnd Y" type="long" data="344"/>
-			<value name="LastMonitor" type="string" data="1920,174,3520,1034"/>
-			<value name="ConWnd Width" type="dword" data="0000006f"/>
-			<value name="ConWnd Height" type="dword" data="0000001d"/>
-=======
 			<value name="WindowMode" type="dword" data="0000051f"/>
 			<value name="ConWnd X" type="long" data="520"/>
 			<value name="ConWnd Y" type="long" data="0"/>
 			<value name="LastMonitor" type="string" data="0,0,1920,1040"/>
 			<value name="ConWnd Width" type="dword" data="0000006d"/>
 			<value name="ConWnd Height" type="dword" data="0000001b"/>
->>>>>>> df09c650f3d1da5cf13abd5b890a7b36581e908c
 			<value name="16bit Height" type="ulong" data="0"/>
 			<value name="Restore2ActiveMon" type="hex" data="00"/>
 			<value name="RestoreInactive" type="hex" data="01"/>
 			<value name="QuakeAnimation" type="ulong" data="100"/>
 			<value name="HideCaption" type="hex" data="00"/>
-<<<<<<< HEAD
-			<value name="HideChildCaption" type="hex" data="00"/>
-			<value name="FocusInChildWindows" type="hex" data="00"/>
-			<value name="HideCaptionAlways" type="hex" data="01"/>
-			<value name="HideCaptionAlwaysFrame" type="hex" data="FF"/>
-=======
 			<value name="HideChildCaption" type="hex" data="01"/>
 			<value name="FocusInChildWindows" type="hex" data="01"/>
 			<value name="HideCaptionAlways" type="hex" data="01"/>
 			<value name="HideCaptionAlwaysFrame" type="hex" data="00"/>
->>>>>>> df09c650f3d1da5cf13abd5b890a7b36581e908c
 			<value name="HideCaptionAlwaysDelay" type="ulong" data="2000"/>
 			<value name="HideCaptionAlwaysDisappear" type="ulong" data="2000"/>
 			<value name="DownShowHiddenMessage" type="hex" data="00"/>
@@ -389,11 +360,7 @@
 			<value name="ConsoleFontName" type="string" data="Lucida Console"/>
 			<value name="ConsoleFontWidth" type="long" data="3"/>
 			<value name="ConsoleFontHeight" type="long" data="5"/>
-<<<<<<< HEAD
-			<value name="DynamicBufferHeight" type="hex" data="00"/>
-=======
 			<value name="DynamicBufferHeight" type="hex" data="01"/>
->>>>>>> df09c650f3d1da5cf13abd5b890a7b36581e908c
 			<value name="DefaultBufferHeight" type="long" data="32766"/>
 			<value name="AutoBufferHeight" type="hex" data="01"/>
 			<value name="UseScrollLock" type="hex" data="01"/>
@@ -461,11 +428,7 @@
 			<value name="SendAltPrintScrn" type="hex" data="00"/>
 			<value name="SendPrintScrn" type="hex" data="00"/>
 			<value name="SendCtrlEsc" type="hex" data="00"/>
-<<<<<<< HEAD
-			<value name="Min2Tray" type="hex" data="00"/>
-=======
 			<value name="Min2Tray" type="hex" data="01"/>
->>>>>>> df09c650f3d1da5cf13abd5b890a7b36581e908c
 			<value name="AlwaysShowTrayIcon" type="hex" data="00"/>
 			<value name="SafeFarClose" type="hex" data="01"/>
 			<value name="SafeFarCloseMacro" type="string" data=""/>
@@ -684,15 +647,9 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data="powershell.exe"/>
 				</key>
-<<<<<<< HEAD
-				<key name="Task6" modified="2020-10-02 11:07:11" build="191012">
-					<value name="Name" type="string" data="{Shells::PowerShell (Admin)}"/>
-					<value name="Flags" type="dword" data="00000003"/>
-=======
 				<key name="Task6" modified="2020-06-05 14:18:16" build="191012">
 					<value name="Name" type="string" data="{Shells::PowerShell (Admin)}"/>
 					<value name="Flags" type="dword" data="00000007"/>
->>>>>>> df09c650f3d1da5cf13abd5b890a7b36581e908c
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Active" type="long" data="0"/>
@@ -735,24 +692,14 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='*cmd.exe /k Title Chocolatey &amp; "%ConEmuBaseDir%\Addons\ChocolateyAbout.cmd"'/>
 				</key>
-<<<<<<< HEAD
-				<key name="Task11" modified="2020-10-02 11:03:30" build="191012">
-					<value name="Name" type="string" data="{Server::LnxSrv}"/>
-					<value name="Flags" type="dword" data="00000000"/>
-=======
 				<key name="Task11" modified="2020-06-05 14:24:02" build="191012">
 					<value name="Name" type="string" data="{Server::LnxSrv}"/>
 					<value name="Flags" type="dword" data="00000004"/>
->>>>>>> df09c650f3d1da5cf13abd5b890a7b36581e908c
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Count" type="long" data="1"/>
 					<value name="Active" type="long" data="0"/>
-<<<<<<< HEAD
-					<value name="Cmd1" type="string" data='cmd.exe /k "ssh daduryan@lnxsrv06.seas.ucla.edu" -new_console:h:a:t:LnxSrv'/>
-=======
 					<value name="Cmd1" type="string" data='cmd.exe /k "ssh daduryan@lnxsrv04.seas.ucla.edu" -new_console:a:t:LnxSrv'/>
->>>>>>> df09c650f3d1da5cf13abd5b890a7b36581e908c
 				</key>
 				<key name="Task12" modified="2020-06-05 14:18:36" build="191012">
 					<value name="Name" type="string" data="{Tools::VS x64}"/>
@@ -771,25 +718,13 @@
 				<value name="Count" type="long" data="0"/>
 			</key>
 			<value name="CmdLineHistory" type="multi">
-<<<<<<< HEAD
-				<line data="{lnxsrv}"/>
-				<line data="{Shells::PowerShell (Admin)}"/>
-				<line data="lnxsrv"/>
-				<line data="{LnxSrv}"/>
-				<line data="{LnxSrv{"/>
-				<line data="{Server::LnxSrv}"/>
-=======
->>>>>>> df09c650f3d1da5cf13abd5b890a7b36581e908c
 				<line data="{Shells::cmd (Admin)}"/>
 				<line data="powershell.exe -cur_console:t:PS"/>
 				<line data="{Shells::cmd}"/>
 				<line data="{Bash::Git bash}"/>
 				<line data="{Bash::bash}"/>
-<<<<<<< HEAD
-=======
 				<line data="{Shells::PowerShell (Admin)}"/>
 				<line data="{Server::LnxSrv}"/>
->>>>>>> df09c650f3d1da5cf13abd5b890a7b36581e908c
 				<line data="{Tools::VS x64}"/>
 				<line data="powershell.exe"/>
 				<line data="{Helper::Show ANSI colors}"/>
