@@ -27,4 +27,3 @@ function gc { & git commit -m $args }
 function .. { & cd .. }
 function ~  { & cd ~ }
 function lnxsrv { & $Env:ConEmuBaseDir\ConEmuC.exe /c "{Server::LnxSrv}" -new_console }
-
