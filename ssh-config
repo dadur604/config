@@ -1,0 +1,4 @@
+Host lnxsrv
+	User daduryan
+	HostName lnxsrv06.seas.ucla.edu
+	ForwardAgent yes
