@@ -1,4 +1,7 @@
-Personal Configuration Files
+Personal Configuration Files  
+  
+Run script (as admin) PS> MakeLinks.ps1 to place files, and make sym links where needed.  
+  
 
 Some software I use:
 
