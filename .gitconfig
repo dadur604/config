@@ -1,0 +1,18 @@
+[user]
+	name = Narek Daduryan
+	email = dadur604604@gmail.com
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[credential]
+	helper = store
+	writelog = true
+[gui]
+	recentrepo = C:/Users/dadur/Documents/Narek/Repos/VR-Chess
+[alias]
+	logg = log --oneline --graph --all
+	last = log -1 HEAD
+[core]
+	editor = emacs

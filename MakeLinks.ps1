@@ -39,6 +39,13 @@ if (Test-Path $EmacsConfig) {
 New-Item -ItemType SymbolicLink -Path $EmacsConfig -Target ".\emacs\.emacs" | Out-Null
 Write-Host "Emacs Config Created"
 
+$GitConfig = "C:\Users\dadur\.gitconfig"
+if (Test-Path $GitConfig) {
+	Remove-Item -Path $GitConfig | Out-Null
+}
+New-Item -ItemType SymbolicLink -Path $GitConfig -Target ".\.gitconfig" | Out-Null
+Write-Host "Emacs Config Created"
+
 Write-Host "Manually Import QTTabBar Settings"
 
 Read-Host -Prompt "Press Enter to exit"
