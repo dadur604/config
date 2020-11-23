@@ -26,6 +26,19 @@ if (Test-Path $SSHConfig) {
 New-Item -ItemType SymbolicLink -Path $SSHConfig -Target ".\ssh-config" | Out-Null
 Write-Host "ssh Config Created"
 
+$EmacsConfigRoaming = "C:\Users\dadur\AppData\Roaming\.emacs"
+if (Test-Path $EmacsConfigRoaming) {
+	Remove-Item -Path $EmacsConfigRoaming | Out-Null
+}
+New-Item -ItemType SymbolicLink -Path $EmacsConfigRoaming -Target ".\emacs\.emacs.roaming" | Out-Null
+
+$EmacsConfig = "C:\Users\dadur\.emacs"
+if (Test-Path $EmacsConfig) {
+	Remove-Item -Path $EmacsConfig | Out-Null
+}
+New-Item -ItemType SymbolicLink -Path $EmacsConfig -Target ".\emacs\.emacs" | Out-Null
+Write-Host "Emacs Config Created"
+
 Write-Host "Manually Import QTTabBar Settings"
 
 Read-Host -Prompt "Press Enter to exit"

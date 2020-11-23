@@ -1,0 +1,5 @@
+(setq user-init-file "C:/Users/dadur/.emacs")
+(setenv "HOME" "C:/Users/dadur/")
+(setq user-emacs-directory "C:/Users/dadur/.emacs.d/")
+(setq default-directory "C:/Users/dadur/Documents/Narek")
+(load user-init-file)
