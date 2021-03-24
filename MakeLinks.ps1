@@ -1,6 +1,6 @@
 cd $PSScriptRoot
 
-$PSProfile = "C:\Users\dadur\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1"
+$PSProfile = "C:\Users\dadur\Documents\PowerShell\Microsoft.PowerShell_profile.ps1"
 if (Test-Path $PSProfile) {
 	Remove-Item -Path $PSProfile | Out-Null
 }

@@ -21,8 +21,13 @@ $GitPromptSettings.BeforeStatus.ForegroundColor = [ConsoleColor]::Blue
 $GitPromptSettings.BranchColor.ForegroundColor = [ConsoleColor]::Blue
 $GitPromptSettings.AfterStatus.ForegroundColor = [ConsoleColor]::Blue
 
+# Git shortcuts
 function gs { & git status $args }
+function gap { & git add -p $args }
 function gc { & git commit -m $args }
+
+Remove-Alias -Name pwd
+function pwd { (Get-Location).path }
 
 function .. { & cd .. }
 function ~  { & cd ~ }
