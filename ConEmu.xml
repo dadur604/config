@@ -8,22 +8,22 @@
 			<value name="StartTasksName" type="string" data="{Shells::PowerShell (Admin)}"/>
 			<value name="StartFarFolders" type="hex" data="00"/>
 			<value name="StartFarEditors" type="hex" data="00"/>
-			<value name="ColorTable00" type="dword" data="001e1d1b"/>
-			<value name="ColorTable01" type="dword" data="00d28b26"/>
-			<value name="ColorTable02" type="dword" data="0014b482"/>
-			<value name="ColorTable03" type="dword" data="00d6c256"/>
-			<value name="ColorTable04" type="dword" data="007226f9"/>
-			<value name="ColorTable05" type="dword" data="00fe548c"/>
-			<value name="ColorTable06" type="dword" data="001f97fd"/>
-			<value name="ColorTable07" type="dword" data="00c6cccc"/>
-			<value name="ColorTable08" type="dword" data="00545350"/>
-			<value name="ColorTable09" type="dword" data="00e3ad62"/>
-			<value name="ColorTable10" type="dword" data="0046ebb7"/>
-			<value name="ColorTable11" type="dword" data="00e5d894"/>
-			<value name="ColorTable12" type="dword" data="009559ff"/>
-			<value name="ColorTable13" type="dword" data="00fea0bf"/>
-			<value name="ColorTable14" type="dword" data="006cedfe"/>
-			<value name="ColorTable15" type="dword" data="00d7dadf"/>
+			<value name="ColorTable00" type="dword" data="00282828"/>
+			<value name="ColorTable01" type="dword" data="001d24cc"/>
+			<value name="ColorTable02" type="dword" data="001a9798"/>
+			<value name="ColorTable03" type="dword" data="002199d7"/>
+			<value name="ColorTable04" type="dword" data="00888545"/>
+			<value name="ColorTable05" type="dword" data="008662b1"/>
+			<value name="ColorTable06" type="dword" data="006a9d68"/>
+			<value name="ColorTable07" type="dword" data="008499a8"/>
+			<value name="ColorTable08" type="dword" data="00748392"/>
+			<value name="ColorTable09" type="dword" data="003449fb"/>
+			<value name="ColorTable10" type="dword" data="0026bbb8"/>
+			<value name="ColorTable11" type="dword" data="002fbdfa"/>
+			<value name="ColorTable12" type="dword" data="0098a583"/>
+			<value name="ColorTable13" type="dword" data="009b86d3"/>
+			<value name="ColorTable14" type="dword" data="007cc08e"/>
+			<value name="ColorTable15" type="dword" data="00b2dbeb"/>
 			<value name="TextColorIdx" type="hex" data="10"/>
 			<value name="BackColorIdx" type="hex" data="10"/>
 			<value name="PopTextColorIdx" type="hex" data="10"/>
@@ -339,11 +339,11 @@
 			<value name="Cascaded" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd X" type="long" data="436"/>
+			<value name="ConWnd X" type="long" data="520"/>
 			<value name="ConWnd Y" type="long" data="0"/>
-			<value name="LastMonitor" type="string" data="0,0,1920,1030"/>
-			<value name="ConWnd Width" type="dword" data="00000068"/>
-			<value name="ConWnd Height" type="dword" data="00000018"/>
+			<value name="LastMonitor" type="string" data="0,0,1920,1040"/>
+			<value name="ConWnd Width" type="dword" data="0000006d"/>
+			<value name="ConWnd Height" type="dword" data="0000001b"/>
 			<value name="16bit Height" type="ulong" data="0"/>
 			<value name="Restore2ActiveMon" type="hex" data="00"/>
 			<value name="RestoreInactive" type="hex" data="01"/>
