@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2020-11-23 13:47:02" build="191012">
+		<key name=".Vanilla" modified="2020-11-30 15:08:13" build="200713">
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
 			<value name="StartTasksFile" type="string" data=""/>
@@ -638,23 +638,23 @@
 					<value name="Cmd1" type="string" data='&gt; "%windir%\system32\cmd.exe" /k ""%ConEmuBaseDir%\CmdInit.cmd" &amp; echo This is Native cmd.exe"'/>
 					<value name="Cmd2" type="string" data='"%windir%\syswow64\cmd.exe" /k ""%ConEmuBaseDir%\CmdInit.cmd" &amp; echo This is 32 bit cmd.exe -new_console:s50V"'/>
 				</key>
-				<key name="Task5" modified="2020-05-09 17:44:30" build="191012">
+				<key name="Task5" modified="2021-03-24 11:17:07" build="200713">
 					<value name="Name" type="string" data="{Shells::PowerShell}"/>
 					<value name="Flags" type="dword" data="00000004"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
-					<value name="Cmd1" type="string" data="powershell.exe"/>
+					<value name="Cmd1" type="string" data="pwsh.exe"/>
 				</key>
-				<key name="Task6" modified="2020-06-05 14:18:16" build="191012">
+				<key name="Task6" modified="2021-03-24 11:17:07" build="200713">
 					<value name="Name" type="string" data="{Shells::PowerShell (Admin)}"/>
 					<value name="Flags" type="dword" data="00000007"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
-					<value name="Cmd1" type="string" data="powershell.exe -new_console:a:t:PS"/>
+					<value name="Cmd1" type="string" data="pwsh.exe -new_console:a:t:PS"/>
 				</key>
 				<key name="Task7" modified="2020-05-09 17:44:30" build="191012">
 					<value name="Name" type="string" data="{Bash::bash}"/>
@@ -718,8 +718,9 @@
 				<value name="Count" type="long" data="0"/>
 			</key>
 			<value name="CmdLineHistory" type="multi">
-				<line data="{Shells::cmd (Admin)}"/>
 				<line data="powershell.exe -cur_console:t:PS"/>
+				<line data='"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"'/>
+				<line data="{Shells::cmd (Admin)}"/>
 				<line data="{Shells::cmd}"/>
 				<line data="{Bash::Git bash}"/>
 				<line data="{Bash::bash}"/>
