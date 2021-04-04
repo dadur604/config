@@ -1,4 +1,8 @@
 Host lnxsrv
 	User daduryan
 	HostName lnxsrv06.seas.ucla.edu
+	IdentityFile ~/.ssh/lnx_rsa
 	ForwardAgent yes
+	
+Match host *github.com*
+	IdentityFile ~/.ssh/gh_rsa
